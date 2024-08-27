@@ -1,0 +1,436 @@
+.body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.header{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    border-radius:5px;
+}
+.icon-tr img{
+    margin-top:25px;
+    margin-left: 20px;
+}
+.tr-text p{
+    font-family: "Mulish", sans-serif;
+    font-weight: weight;
+    font-size: 24px;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.texts{
+    font-size: 18px;
+    font-family: "Mulish", sans-serif;
+    margin-left: 510px;
+    margin-top: 15px;
+    display: flex;
+    gap: 50px;
+}
+.container{
+    display: flex;
+}
+.main-img img{
+    width: 643px;
+    height: 548px;
+    margin-left: 600px;
+}
+.main-texts h1{  
+    font-family: "Mulish", sans-serif;
+    margin-left: -1200px;
+    font-size: 40px;
+    margin-top: 50px;
+}
+.main-texts p{
+    margin-left:-1200px;
+    font-family: "Mulish", sans-serif;
+}
+button{
+    width: 200px;
+    height: 57px;
+    background-color: #458FF6;
+    border: none;
+    border-radius: 15px;
+    margin-left: -1200px;
+    margin-top: 250px;
+    font-size: 20px;
+    font-family: "Mulish",sans-serif;
+    transition: transform .2s;
+}
+button:hover{
+    transform: scale(1.1);
+}
+button p{
+    margin-top: 15px;   
+}
+.service-tx h1{
+    font-family: "Mulish", sans-serif;
+    font-size: 36px;
+    margin-top: 50px;
+    margin-left: 530px;
+}
+.service-tx p{
+    font-family: "Mulish", sans-serif;
+    font-size: 16px;
+    margin-left: 350px;
+}
+.container2{
+    gap: 20px;
+    padding:20px;
+}
+.frame img{
+ margin-left: -950px;  
+ display: flex; 
+}
+.container2{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    max-width: 1200px;
+    padding-left: 70px;
+    padding-top: 50px;
+}
+
+.card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    -webkit-box-shadow: 1px 4px 38px 0px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 1px 4px 38px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: 1px 4px 38px 0px rgba(34, 60, 80, 0.2);
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.2s ease-in-out;
+}
+
+.card img {
+    width: 50px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.card h2 {
+    font-size: 20px;
+    margin: 10px 0;
+    color: #333;
+    font-family: "Mulish",sans-serif;
+}
+
+.card p {
+    font-size: 16px;
+    color: #666;
+    font-family: "Mulish",sans-serif;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+.button2{
+    width: 150px;
+    height: 50px;
+    background-color: #ffffff;
+    border-radius: 30px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #458FF6;
+    margin-left: 610px;
+    margin-top: 20px;
+    transition: transform .2s;
+}
+.button2 p{
+    font-size: 20px;
+    font-family: "Mulish",sans-serif;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.button2:hover{
+    transform: scale(1.1);
+}
+.container3{
+    display: flex;
+}
+.med-img img{
+    margin-top: 30px;
+    width: 600px;
+    height: 427px;
+}
+.main-text h1{
+    font-size: 40px;
+    font-family: "Mulish", sans-serif;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.main-text p{
+    font-size: 20px;
+    font-family: "Mulish",sans-serif;
+    margin-left: 50px;
+}
+.button3{
+    width: 150px;
+    height: 50px;
+    background-color: #ffffff;
+    border-radius: 30px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #458FF6;
+    margin-top: -190px;
+    margin-left: 650px;
+    transition: transform .2s;
+}
+.button3:hover{
+    transform: scale(1.1);
+}
+.button3 p{
+    font-size: 20px;
+    font-family: "Mulish",sans-serif;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.container4{
+    display: flex;
+}
+.main-text2 h1{
+    font-size:40px;
+    font-family: "Mulish", sans-serif;
+    margin-top: 150px;
+    margin-left: 20px;
+}
+.main-text2 p{
+    font-size:20px;
+    font-family: "Mulish",sans-serif;
+    margin-left: 20px;
+}
+.med-img2 img{
+    width: 615px;
+    height: 394px;
+    margin-top: 100px;
+}
+.button4{
+    width: 150px;
+    height: 50px;
+    background-color: #ffffff;
+    border-radius: 30px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #458FF6;
+    margin-top: -110px;
+    margin-left: 20px;
+    transition: transform .2s;   
+}
+.button4 p{
+    font-size: 20px;
+    font-family: "Mulish",sans-serif;
+    margin-top: 10px;
+    margin-left: 20px;   
+}
+.button4:hover{
+    transform: scale(1.1);
+}
+.container5 {
+    background: linear-gradient(135deg, #72c6ef 0%, #004e92 100%);
+    border-radius: 20px;
+    padding: 40px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    position: relative;
+    margin-top: 100px;
+}
+
+.container5 h2 {
+    margin-top: -10px;
+    font-size: 35px;
+    font-family: "Mulish",sans-serif;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.customer-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.customer-photo {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.edward-name {
+    text-align: left;
+}
+
+.edward-name h3 {
+    margin: 0;
+    font-size: 18px;
+    font-family: "Mulish",sans-serif;
+}
+
+.edward-name p {
+    margin: 0;
+    font-size: 14px;
+    font-family: "Mulish",sans-serif;
+}
+
+.info-text {
+    font-size: 16px;
+    line-height: 1.5;
+    max-width: 600px;
+    margin: 0 auto;
+    font-family: "Mulish",sans-serif;
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.nav-button {
+    background: none;
+    border: none;
+    color: #ffffff;
+    font-size: 24px;
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+.dots {
+    display: flex;
+    gap: 5px;
+}
+
+.dot {
+    width: 8px;
+    height: 8px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.dot.active {
+    background-color: #ffffff;
+}
+.dot:hover {
+    background-color: #ffffff;
+}
+.box{
+    background-color: #ffffff;
+    border-radius: 20px;
+    -webkit-box-shadow: 1px 4px 38px 0px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 1px 4px 38px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: 1px 4px 38px 0px rgba(34, 60, 80, 0.2);
+    text-align: center;
+    transition: transform 0.2s ease-in-out;
+    width: 350px;
+}
+.ha1 h1{
+    font-size: 40px;
+    font-family: "Mulish",sans-serif;
+    margin-left: 390px;
+}
+.container6 h1{
+    font-family: "Mulish",sans-serif;
+    margin-left: 390px;
+}
+.box h1{
+    font-size: 25px;
+    margin-left: -10px;
+}
+.box p{
+    font-size:20px;
+    font-family: "Mulish",sans-serif;
+
+}
+.container6{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    max-width: 1200px;
+    padding-left: 70px;
+    margin-top: 50px;
+}
+.box img {
+    width: auto;
+    height: auto;
+}
+.box h5{
+    font-family: "Mulish",sans-serif;
+    margin-left: -210px;
+    font-size: 15px;
+}
+.button5{
+    width: 150px;
+    height: 50px;
+    background-color: #ffffff;
+    border-radius: 30px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #458FF6;
+    margin-top: 110px;
+    margin-left: 570px;
+    transition: transform .2s;   
+}
+.button5 p{
+    font-size: 20px;
+    font-family: "Mulish",sans-serif;
+    margin-top: 10px;
+    margin-left: 35px;   
+}
+.button5:hover{
+    transform: scale(1.1);
+}
+.box:hover {
+    transform: translateY(-10px);
+}
+.footer {
+    background: linear-gradient(90deg, #56CCF2, #2F80ED);
+    color: white;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-top: 100px;
+}
+.footer div {
+    max-width: 200px;
+}
+.footer h4 {
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: "Mulish",sans-serif;
+}
+.footer p, .footer a {
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+    line-height: 1.6;
+    font-family: "Mulish",sans-serif;
+}
+.footer a:hover {
+    text-decoration: underline;
+}
+.footer .logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-family: "Mulish",sans-serif;
+    margin-top: 15px;
+}
